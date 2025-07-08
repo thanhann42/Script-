@@ -1,12 +1,12 @@
 -- Grow Garden Mobile Tools - By Thành An
 local player = game:GetService("Players").LocalPlayer
-local gui = Instance.new("ScreenGui", player:WaitForChild("PlayerGui"))
+local gui = Instance.new("ScreenGui", player:WaitForChild("PlayerGui")
 gui.Name = "GardenMobileTools_V2"
 gui.ResetOnSpawn = false
 
 -- Cấu hình mobile
 local isMobile = game:GetService("UserInputService").TouchEnabled
-local buttonSize = isMobile and UDim2.new(0, 80, 0, 80) or UDim2.new(0, 50, 0, 50)
+local buttonSize = isMobile and UDim2.new(0, 80, 0, 80) or UDim2.new(0, 50, 0, 50) end
 
 -- Nút toggle (lớn hơn trên mobile)
 local toggle = Instance.new("TextButton", gui)
